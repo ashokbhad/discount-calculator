@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            border: 3px solid rgb(2, 255, 255);
+            box-shadow: 10px 10px 10px 10px rgb(215, 188, 215);
+            font-family: "Roboto Slab", serif;
+            background-color: white;
+            margin: 41px 409px;
+            padding: 29px;
+            border-radius: 25px;
+        }
+
+        h2 {
+            color: rgb(25, 237, 244);
+            text-transform: uppercase;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        tr,
+        label {
+            color: rgb(7, 244, 252);
+            font-size: large;
+            padding: 4px 4px;
+        }
+
+        .number {
+            width: 450px;
+            padding: 10px;
+            border-radius: 25px;
+            border: 1px solid grey;
+            color: cadetblue;
+            font-size: large;
+        }
+
+        .number:hover {
+            border: 2px solid rgb(30, 20, 20);
+        }
+
+        button {
+            background-color: #16f51e;
+            width: 470px;
+            padding: 10px;
+            font-weight: bolder;
+            color: rgb(241, 232, 232);
+            margin: 10px 0px;
+            border-radius: 25px;
+            border: none;
+            font-size: larger;
+        }
+
+        button:hover {
+            color: rgb(229, 57, 149);
+        }
+    </style>
+</head>
+
+<body>
+    <form id="frame">
+        <h2>Discount Calculator</h2>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>Enter the Bill amount and discount in percentage</label></td>
+                </tr>
+                <tr>
+                    <td><label>Bill Amount</label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" class="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Discount Percentage</label></td>
+
+                </tr>
+                <tr>
+                    <td><input type="number" class="number"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Calculate</button></td>
+                </tr>
+                <tr>
+                    <td><label for="">Total Discount Amount</label></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+</body>
+
+</html>
